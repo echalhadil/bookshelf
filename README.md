@@ -9,8 +9,8 @@ create your mySQL Database named bookshef .
 open CMD on your repository and run the following command :
   ```composer
   php artisan config:cache
-  php artisan cache:clear  # clear cache
-  php artisan migrate # to create database tables
-  php artisan serve # to Serve the project in localhost
+  php artisan cache:clear  
+  php artisan migrate 
+  php artisan serve 
   
   ```
