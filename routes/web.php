@@ -27,7 +27,7 @@ route::get('favorite',function(){ return view('book.favourite')->with('title','f
 Route::get('download/{id}','BookController@download');
 
 
-route::get('saved','SaveController@saved');
+Route::get('saved','SaveController@saved');
 Auth::routes();
 
 Route::get('getbook/{id}','bookController@getbook');
