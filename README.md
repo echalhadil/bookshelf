@@ -7,7 +7,7 @@ download the project on zip format .
 create your mySQL Database named bookshef .
 
 open CMD on your repository and run the following command :
-  ```
+  ```javascript
   php artisan config:cache
   php artisan cache:clear  # clear cache
   php artisan migrate # to create database tables
