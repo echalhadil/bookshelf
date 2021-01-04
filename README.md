@@ -1,4 +1,4 @@
-# bookshelf v1.0.0
+# bookshelf
 bookshelf in an online library that provides you to post or download pdf books .
 
 # Installation
