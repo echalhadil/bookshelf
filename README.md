@@ -8,6 +8,8 @@ create your mySQL Database named bookshef .
 
 open CMD on your repository and run the following command :
   ```composer
+  composer install
+  npm install
   php artisan config:cache
   php artisan cache:clear  
   php artisan migrate 
