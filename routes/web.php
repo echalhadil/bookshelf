@@ -2,6 +2,10 @@
 
 //getting the Main page
 
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+
+
 Route::get('/',function () { return view('home')->with('title','Home'); });
 
 
@@ -21,13 +25,13 @@ Route::get('read/{id}','BookController@read');
 
 Route::get('auth',function(){return view('auth.login')->with('title','Profile'); })->name('auth');
 
-route::get('favorite',function(){ return view('book.favourite')->with('title','favorite');});
+Route::get('favorite',function(){ return view('book.favourite')->with('title','favorite');});
 
 
 Route::get('download/{id}','BookController@download');
 
 
-route::get('saved','SaveController@saved');
+Route::get('saved','SaveController@saved');
 Auth::routes();
 
 Route::get('getbook/{id}','bookController@getbook');

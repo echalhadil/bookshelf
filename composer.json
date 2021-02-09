@@ -6,6 +6,13 @@
         "framework",
         "laravel"
     ],
+    "authors": [
+        {
+            "name": "Echalh Adil",
+            "email": "echalhadil@gmail.com",
+            "role": "founder & Developer"
+        }
+    ],
     "license": "MIT",
     "require": {
         "php": "^7.2",
